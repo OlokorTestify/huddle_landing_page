@@ -298,3 +298,226 @@ footer {
     font-size: 19px;
     font-family: 'Open Sans', sans-serif;
 }
+
+@media screen and (min-width: 768px) and (max-width:1000px) {
+    .header-content {
+        margin-top: -5rem;
+        width: 80%;
+    }
+
+    .header-content h1 {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        color: hsl(192, 100%, 9%);
+    }
+
+    .header-content p {
+        font-weight: 600;
+        width: 89%;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .header-content-btn {
+        width: 60%;
+    }
+
+    .section-bg {
+        padding: 1rem 2rem;
+    }
+
+    .section-bg-write-up {
+        margin-left: 0;
+        margin-top: 0;
+        width: 45%;
+    }
+
+    .section-bg-image {
+        width: 49%;
+    }
+
+    .section-bg-2 {
+        padding: 1rem 2rem;
+    }
+
+    .section-bg-card {
+        padding: 1rem 2rem;
+    }
+
+    .section-footer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 3rem 1rem;
+    }
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 5rem;
+    }
+
+    .logo-btn {
+        padding: 0.5rem 1.6rem;
+        margin-top: -10px;
+    }
+
+    .logo-btn a {
+        font-size: 13px;
+    }
+
+    .header-landing {
+        width: 100%;
+        flex-direction: column;
+        margin-top: inherit;
+    }
+
+    .header-content {
+        width: 100%;
+    }
+
+    .header-content h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 1.4;
+    }
+
+    .header-content p {
+        line-height: 1.5;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-content-btn {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header-image img {
+        margin-top: 3rem;
+    }
+
+    .header-image {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .section {
+        width: 90%;
+    }
+
+    .section-bg {
+        flex-direction: column-reverse;
+        padding: inherit;
+        text-align: center;
+    }
+
+    .section-bg-write-up {
+        width: 100%;
+        margin-left: inherit;
+        margin-top: inherit;
+        padding: 1.4rem;
+        line-height: 1.4;
+    }
+
+    .section-bg-image {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2em;
+    }
+
+    .section-bg-2 {
+        width: 100%;
+        margin: inherit;
+        padding: inherit;
+        flex-direction: column-reverse;
+    }
+
+    #write-card {
+        margin-top: -1rem;
+        text-align: center;
+    }
+
+    #write {
+        line-height: 1.4rem;
+        padding: 1.1rem;
+    }
+
+    .section-bg-card {
+        margin: inherit;
+        padding: inherit;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #user-card {
+        line-height: 1.4rem;
+    }
+
+    #card {
+        margin-top: -1.5rem;
+        padding: 2.4rem;
+    }
+
+    .section-footer {
+        padding: 1.5rem 3rem;
+        margin: inherit;
+        width: 100%;
+        margin-bottom: -5rem;
+
+    }
+
+    .section-footer-write-up {}
+
+    .section-footer-write-up h2 {
+        font-size: 1.2rem;
+    }
+
+    .footer-content-btn {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 0.7rem 1.4rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #footer {
+        width: 100%;
+    }
+
+    .footer-bg {
+        width: 100%;
+        margin-left: inherit;
+    }
+
+    #last-bg {
+        margin-top: -5rem;
+    }
+
+    .footer-icon-bg {
+        margin-top: -3rem;
+    }
+
+    .footer-bn {
+        margin-left: 7rem;
+    }
+
+    .footer-copyright p {
+        margin-right: inherit;
+        margin-top: 1.3rem;
+        text-align: center;
+        width: 96%;
+        font-size: 0.75rem;
+    }
+}
